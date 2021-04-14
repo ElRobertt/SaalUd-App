@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titubin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicaciones Nutriologos"
+                android:textAlignment="center"
+                android:textColor="#F53240"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/nutri1"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:src="@drawable/nutri1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monitor Nutricional"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_nutri1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Ver En el Mapa"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/nutri2"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nutri4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutriologo Oscar Rivera"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_nutri2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Ver En el Mapa"
+                android:textColor="#FFFFFF" />
+            <ImageView
+                android:id="@+id/nutri3"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:src="@drawable/nutri7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nutridutty"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_nutri3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Ver En el Mapa"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

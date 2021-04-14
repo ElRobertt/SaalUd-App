@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SaluudApp</string>
+    <string name="pqt1">Plan gratis:
+30 días
+1 plan de alimentación semanal
+1 rutina
+Charla con nutriologo y preparador una vez a la semana</string>
+    <string name="pqt2">Plan gratis:
+Plan medio: 150 pesos
+30 días
+3 planes de alimentación semanal
+3 rutinas de ejercicio semanal
+Charla cada 3 día con nutriologo y preparador</string>
+    <string name="pqt3">Plan gratis:
+Plan premium: 300 pesos
+30 días
+Planes de alimentación a escoger
+Rutinas de ejercicio diferente cada día
+Posibilidad de hablar con nutriologo y preparador cada día</string>
+</resources>

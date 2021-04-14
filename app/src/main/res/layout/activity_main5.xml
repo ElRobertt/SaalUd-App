@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titubin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicaciones      Gimnasios"
+                android:textAlignment="center"
+                android:textColor="#F53240"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gym1"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:src="@drawable/gym1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Life Gym Tepic"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_gym1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Ver En el Mapa"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/gym2"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:src="@drawable/gym2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Gym"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_gym2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Ver En el Mapa"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/gym3"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gym5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre gym"
+                android:textAlignment="center"
+                android:textColor="#000000"></TextView>
+
+            <Button
+                android:id="@+id/bt_gym3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F53240"
+                android:text="Platinum"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

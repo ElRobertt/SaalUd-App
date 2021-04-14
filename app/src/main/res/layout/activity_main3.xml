@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido de nuevo!"
+        android:textColor="#F53240"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIMC"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFE9EA"
+        android:drawableTop="@drawable/percent"
+        android:gravity="center"
+        android:text="CALCULA TU IMC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/ubinu"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFE9EA"
+        android:drawableTop="@drawable/id_card_3"
+        android:onClick="onClick4"
+        android:text="Ubicaciones Nutriologos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/ubigi"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+        android:background="#FFE9EA"
+        android:drawableTop="@drawable/placeholders"
+        android:onClick="onClick5"
+        android:text="Ubicaciones Gimnasios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnIMC"
+        app:layout_constraintStart_toEndOf="@+id/ubinu"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recomendado"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Popular"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView2" />
+
+    <VideoView
+        android:id="@+id/videoView2"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:background="#f53240"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ubigi" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
